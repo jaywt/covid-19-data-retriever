@@ -3,7 +3,7 @@ echo "Starting the workflow"
 echo ""
 echo ""
 echo ""
-echo "# last run on `date`" | cat - covid-19-data-retriever.py > temp && mv temp covid-19-data-retriever.p
+echo "# last run on `date`" | cat - covid-19-data-retriever.py > temp && mv temp covid-19-data-retriever.py
 python -v covid-19-data-retriever.py
 echo ""
 echo ""
