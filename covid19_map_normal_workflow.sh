@@ -14,7 +14,7 @@ git push origin master
 echo ""
 echo ""
 echo ""
-
+../jaywt.github.io/git_normal_workflow.sh
 echo ""
 echo ""
 echo ""
