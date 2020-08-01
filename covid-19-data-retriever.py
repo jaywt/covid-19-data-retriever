@@ -1,5 +1,4 @@
-# last run on Sat Aug  1 14:28:34 EDT 2020
-# last run on Sat Aug  1 14:15:00 EDT 2020
+# last run on Sat Aug  1 14:35:01 EDT 2020
 # last run on Mon Jul 27 00:42:27 EDT 2020
 # last run on 07/17/2020 14:28:00
 # last run on 07/06/2020 03:16:00
@@ -82,9 +81,9 @@ date = PA_MI_NY_confirmed.columns[2]
 
 
 # rename column names
-PA_MI_NY_confirmed.rename(columns={'Admin2': 'County', 'Province_State': 'State', 
+PA_MI_NY_confirmed.rename(columns={'Admin2': 'County', 'Province_State': 'State',
                                    PA_MI_NY_confirmed.columns[2]: 'confirmed_cases'}, inplace=True)
-PA_MI_NY_death.rename(columns={'Admin2': 'County', 'Province_State': 'State', 
+PA_MI_NY_death.rename(columns={'Admin2': 'County', 'Province_State': 'State',
                                PA_MI_NY_death.columns[2]: 'deaths'}, inplace=True)
 
 
@@ -173,4 +172,3 @@ PA_MI_NY_death_data.to_file("../jaywt.github.io/covid19/PA_MI_NY_latest_death.ge
 
 # PA_test = PA_county[PA_county['time'].isin(['2020-04-01T00:00:00', '2020-04-02T00:00:00'])]
 # PA_test.to_file("PA_county_twodayscases.geojson", driver='GeoJSON')
-
