@@ -14,13 +14,13 @@ git push origin master
 echo ""
 echo ""
 echo ""
-cd /Users/jaywen/Documents/GitHub/jaywt.github.io
+cd /Users/twen08/Documents/GitHub/jaywt.github.io
 pwd
-/Users/jaywen/Documents/GitHub/jaywt.github.io/git_normal_workflow.sh
+/Users/twen08/Documents/GitHub/jaywt.github.io/git_normal_workflow.sh
 echo ""
 echo ""
 echo ""
-cd /Users/jaywen/Documents/GitHub/covid-19-data-retriever
+cd /Users/twen08/Documents/GitHub/covid-19-data-retriever
 pwd
 echo ""
 echo ""
